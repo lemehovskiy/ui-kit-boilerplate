@@ -1,0 +1,79 @@
+:root {
+  --btn-font-size: 14px;
+  --btn-font-weight: 600;
+  --btn-line-height: 16px;
+  --btn-line-border-radius: 3px;
+}
+
+.root {
+  background-color: var(--btn-bg);
+  border-color: var(--btn-bg);
+  border-radius: var(--btn-line-border-radius);
+  border-style: solid;
+  box-shadow: none;
+  color: var(--btn-color);
+  cursor: pointer;
+  font-size: var(--btn-font-size);
+  font-weight: var(--btn-font-weight);
+  line-height: var(--btn-line-height);
+  padding: var(--btn-padding);
+  transition-duration: var(--transition-duration);
+  transition-property: background-color, border-color;
+
+  &:hover {
+    background-color: var(--btn-hover-bg);
+    border-color: var(--btn-hover-bg);
+    color: var(--btn-hover-color);
+  }
+}
+
+.contained-primary {
+  --btn-color: var(--n0);
+  --btn-bg: var(--g300);
+  --btn-hover-bg: var(--g400);
+  --btn-hover-color: var(--n0);
+}
+
+.contained-primary-light {
+  --btn-color: var(--g300);
+  --btn-bg: var(--g50);
+  --btn-hover-color: var(--g300);
+  --btn-hover-bg: var(--g50);
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.text-primary {
+  --btn-color: var(--g300);
+  --btn-bg: transparent;
+  --btn-hover-color: var(--g300);
+  --btn-hover-bg: var(--g50);
+}
+
+.contained-danger {
+  --btn-color: var(--n0);
+  --btn-bg: var(--r400);
+  --btn-hover-color: var(--n0);
+  --btn-hover-bg: var(--r300);
+}
+
+.text-danger {
+  --btn-color: var(--r400);
+  --btn-bg: transparent;
+  --btn-hover-color: var(--r400);
+  --btn-hover-bg: var(--r50);
+}
+
+.small {
+  --btn-padding: 3px 8px;
+}
+
+.medium {
+  --btn-padding: 6px 12px;
+}
+
+.large {
+  --btn-padding: 10px 16px;
+}

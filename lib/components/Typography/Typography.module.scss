@@ -1,0 +1,64 @@
+:root {
+  --typography-body1-font-size: 14px;
+  --typography-h1-font-size: 24px;
+  --typography-h2-font-size: 22px;
+  --typography-h3-font-size: 20px;
+  --typography-h4-font-size: 18px;
+  --typography-h5-font-size: 16px;
+  --typography-h6-font-size: 14px;
+  --typography-header-font-weight: 700;
+}
+
+.body1 {
+  font-size: var(--typography-body1-font-size);
+}
+
+.h1 {
+  font-size: var(--typography-h1-font-size);
+  font-weight: var(--typography-header-font-weight)
+}
+
+.h2 {
+  font-size: var(--typography-h2-font-size);
+  font-weight: var(--typography-header-font-weight);
+}
+
+.h3 {
+  font-size: var(--typography-h3-font-size);
+  font-weight: var(--typography-header-font-weight);
+}
+
+.h4 {
+  font-size: var(--typography-h4-font-size);
+  font-weight: var(--typography-header-font-weight);
+}
+
+.h5 {
+  font-size: var(--typography-h5-font-size);
+  font-weight: var(--typography-header-font-weight);
+}
+
+.h6 {
+  font-size: var(--typography-h6-font-size);
+  font-weight: var(--typography-header-font-weight);
+}
+
+.center {
+  text-align: center;
+}
+
+.inherit {
+  text-align: inherit;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
